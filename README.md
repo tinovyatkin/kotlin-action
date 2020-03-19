@@ -1,14 +1,12 @@
 <p align="center">
-  <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/actions/typescript-action/workflows/build-test/badge.svg"></a>
+  <a href="https://github.com/tinovyatkin/kotlin-action/actions"><img alt="kotlin-action status" src="https://github.com/tinovyatkin/kotlin-action/workflows/build-test/badge.svg"></a>
 </p>
 
-# Create a JavaScript Action using TypeScript
+# Create a JavaScript GitHub Action using Kotlin
 
 Use this template to bootstrap the creation of a JavaScript action.:rocket:
 
 This template includes compilication support, tests, a validation workflow, publishing, and versioning guidance.  
-
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
 
 ## Create an action from this template
 
@@ -16,27 +14,7 @@ Click the `Use this Template` and provide the new repo details for your action
 
 ## Code in Master
 
-Install the dependencies  
-```bash
-$ npm install
-```
-
-Build the typescript and package it for distribution
-```bash
-$ npm run build && npm run pack
-```
-
-Run the tests :heavy_check_mark:  
-```bash
-$ npm test
-
- PASS  ./index.test.js
-  ✓ throws invalid number (3ms)
-  ✓ wait 500 ms (504ms)
-  ✓ test runs (95ms)
-
-...
-```
+Code using Kotlin and commit to master.
 
 ## Change action.yml
 
